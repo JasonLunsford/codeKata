@@ -1,6 +1,6 @@
 <h1>Small Stuff</h1>
 
-<h3>Code golf solutions:</h3>
+<h3>Code kata solutions:</h3>
 
 Sieve Of Eratosthenes (JS)
 
