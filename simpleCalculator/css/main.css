@@ -1,0 +1,140 @@
+/*
+	Simple Calculator Stylesheet
+
+	Author: Jason Lunsford
+	Version: 1.0
+	
+	-----------------------------------------
+	CONTENTS - MAIN.CSS
+	-----------------------------------------
+	1. CALCULATOR FRAME
+	2. TYPOGRAPHY
+	3. BIG SECTIONS
+	4. BUTTONS
+
+*/
+
+/* 1. CALCULATOR FRAME
+----------------------------------------------------------------------------------------*/
+
+	html { height:100%; }
+	
+	div.wrapper {
+		background-image:url("../images/Calculator_Background.png");
+		background-position:left top;
+		background-repeat:no-repeat;
+		margin:50px auto 0px;
+		position:relative;
+		width:517px;
+	}
+	
+	section {
+		background-color:transparent;
+		border:3px solid #009B00;
+		border-radius:14px;
+		height:668px;
+		padding:12px 25px 24px 22px;
+	}
+	
+
+/* 2. TYPOGRAPHY 
+----------------------------------------------------------------------------------------*/
+
+	h1 {
+		font-size:24px;
+		font-weight:bold;
+		margin:0px;
+		padding:0px;
+		text-align:center;
+	}
+
+/* 3. BIG SECTIONS
+----------------------------------------------------------------------------------------*/
+
+	div.titleRow {
+		height:46px;
+	}
+	
+	div.screenRow {
+		height:132px;
+	}
+	
+	div.standardRow {
+		height:67px;
+		margin-top:8px;
+	}
+	
+	div.shortRow {
+		float:left;
+		height:67px;
+		margin-top:8px;
+		width:347px;
+	}
+	
+	div.tallRow {
+		float:right;
+		height:142px;
+		margin-top:8px;
+		width:111px;
+	}
+	
+	div.screenRow p {
+		color:#009B00;
+		font-size:68px;
+		height:111px;
+		margin:0px;
+		padding:9px 19px;
+		text-align:right;
+	}
+
+/* 4. BUTTONS
+----------------------------------------------------------------------------------------*/
+
+	div.standardRow div:last-child { margin:0px; }
+	div.shortRow div:last-child { margin:0px; }
+
+	.sndButton {
+		float:left;
+		margin-right:8px;
+		padding:7px 8px 9px;
+		width:110px;
+	}
+	
+	.longButton {
+		width:228px;
+	}
+	
+	.tallButton {
+		height:142px;
+		margin:0px;
+	}
+	
+	.sndButton p {
+		color:#333333;
+		font-size:38px;
+		height:47px;
+		line-height:47px;
+		margin:0px;
+		text-align:center;
+		
+		-webkit-user-select: none;  /* Chrome all / Safari all */
+		-moz-user-select: none;     /* Firefox all */
+		-ms-user-select: none;      /* IE 10+ */
+	}
+	
+	.sndButton p:hover {
+		cursor:pointer;
+	}
+	
+	.sndButton p:active {
+		color:#009B00;
+	}
+	
+	.sndButton p.current {
+		color:#009B00;
+	}
+	
+	.tallButton p {
+		height:123px;
+		line-height:200px;
+	}

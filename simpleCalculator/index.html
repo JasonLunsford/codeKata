@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset=utf-8 />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jason Lunsford - Simple Calculator</title>
+	<!-- Bootstrap -->
+	<link href="css/bootstrap/bootstrap.css" rel="stylesheet" media="screen">
+	<!-- Load Modernizr -->
+	<script src="js/libs/modernizr-2.7.0.js"></script>
+	<!-- Core CSS -->
+	<link rel="stylesheet" href="css/main.css" media="screen">
+</head>
+<body>
+	<div class="wrapper" role="main">
+		<section>
+			<div class="titleRow">
+				<h1>My Calculator</h1>
+			</div>
+			<div class="screenRow">
+				<p id="screen">0</p>
+			</div>
+			<div class="standardRow">
+				<div class="sndButton"><p class="interactMem" id="memClear">MC</p></div>
+				<div class="sndButton"><p class="interactMem" id="memPositive">M+</p></div>
+				<div class="sndButton"><p class="interactMem" id="memNegative">M-</p></div>
+				<div class="sndButton"><p class="interactMem" id="memRecall">MR</p></div>
+			</div>
+			<div class="standardRow">
+				<div class="sndButton"><p id="screenClear">C</p></div>
+				<div class="sndButton"><p id="toggleSign">+/-</p></div>
+				<div class="sndButton"><p class="interact" id="divide">/</p></div>
+				<div class="sndButton"><p class="interact" id="multiply">X</p></div>
+			</div>
+			<div class="standardRow">
+				<div class="sndButton"><p class="num">7</p></div>
+				<div class="sndButton"><p class="num">8</p></div>
+				<div class="sndButton"><p class="num">9</p></div>
+				<div class="sndButton"><p class="interact" id="subtract">-</p></div>
+			</div>
+			<div class="standardRow">
+				<div class="sndButton"><p class="num">4</p></div>
+				<div class="sndButton"><p class="num">5</p></div>
+				<div class="sndButton"><p class="num">6</p></div>
+				<div class="sndButton"><p class="interact" id="add">+</p></div>
+			</div>
+			<div class="tallRow">
+				<div class="sndButton tallButton"><p id="equal">=</p></div>
+			</div>
+			<div class="shortRow">
+				<div class="sndButton"><p class="num">1</p></div>
+				<div class="sndButton"><p class="num">2</p></div>
+				<div class="sndButton"><p class="num">3</p></div>
+			</div>
+			<div class="shortRow">
+				<div class="sndButton longButton"><p id="num0">0</p></div>
+				<div class="sndButton"><p id="decimal">.</p></div>
+			</div>
+		</section>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/libs/jquery-1.10.2.js"></script>
+
+	<!-- My Script -->
+	<script src="js/calculator.js"></script>
+</body>
+</html>
